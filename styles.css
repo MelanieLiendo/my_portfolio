@@ -1,0 +1,291 @@
+/*BODY*/
+
+body{
+    margin: 0;
+    
+}
+
+
+/*INDEX*/
+
+
+
+.topbar {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.topbar nav ul li {    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.topbar nav ul li:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+.splashscreen {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    gap: 60px;
+    height: 90vh;
+}
+
+.splashCenter {
+    background-image: url(./images/groupDevelopers.jpg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.opacityZone {
+    height: 380px;
+    width: 630px;
+    opacity:  0.7;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.splashLeft {
+    background-color: #C19A6B;
+}
+
+.splashRight {
+    background-color: #C19A6B;
+}
+
+
+
+/* ABOUT */
+
+.firstgrid2 {
+    display: grid;
+    grid-template-columns: 243px 1fr;
+    
+
+}
+
+.gridaside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    font-size: 6.5em;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0;
+    width: inherit;
+    writing-mode: tb-rl;
+
+}
+
+.gridaside h1 {
+    text-orientation: upright;
+
+
+}
+
+.rightgrid {
+    display: grid;
+    grid-template-columns: auto 50%;
+    grid-gap: 2em;
+}
+.rightgrid img {
+    height: 100%;
+    width: 100%;
+}
+
+.rightgrid p {
+    font-size: .9em;
+    line-height: 30px;
+    letter-spacing: .4px;
+    text-align: left;
+    text-indent: 5%;
+    color: darkgoldenrod;
+    font-family: "Montserrat",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+/*SKILLS*/
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(221,194,159);
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.skillColumn{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(241, 235, 221);
+    color: black;    
+}
+
+.skills h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.skillText{
+    font-weight: 500;
+}
+
+.skillColumn h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.skillColumn ul {
+    margin-top: 40px;
+}
+
+.skillColumn ul li{
+    margin-bottom: 25px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C19A6B;
+    height: 90vh;
+}
+
+/*PROJECTS*/
+
+.projectsGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #C19A6B;
+}
+
+.projectsGrid h2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.projectsGrid h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nutritionDescription a:link{
+    text-decoration: underline;
+
+
+}
+ 
+.youtubeVideo{
+    display: flex;
+    justify-content: center;
+    margin: 50px  0;
+}
+
+.youtubeDescription {
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foodiesDescription {
+    margin:0 20px;
+}
+
+.nutritionVideo{
+    display: flex;
+    justify-content: center;
+    margin: 50px  0;
+}
+
+
+.nutritionDescription{
+    margin:0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*CONTACT*/
+
+.contactGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(241, 235, 221);
+    gap: 30px;
+    margin: 30px;
+}
+
+.contactGrid img {
+    width: 60px;
+}
+
+.contact{
+    background-color: #C19A6B;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contact h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+.contactGrid div{ 
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    align-items: center;
+}
+
+.contactGrid h3 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.contactBody{
+    height: 10vh;
+}
+
+.contactGrid button {
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 1px;
+    background-color: white;
+}
