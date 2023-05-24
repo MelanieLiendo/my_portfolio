@@ -83,6 +83,8 @@ a:visited {
 .firstgrid2 {
     display: grid;
     grid-template-columns: 243px 1fr;
+    height: 90vh;
+    background-color: rgb(174, 127, 158);
     
 
 }
@@ -91,8 +93,8 @@ a:visited {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: antiquewhite;
-    font-size: 6.5em;
+    color: rgb(252, 185, 229);
+    font-size: 4em;
     font-weight: 600;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -112,10 +114,11 @@ a:visited {
     display: grid;
     grid-template-columns: auto 50%;
     grid-gap: 2em;
+    align-content: center;
 }
 .rightgrid img {
-    height: 100%;
-    width: 100%;
+    width: 80%;
+    border-radius: 100%;
 }
 
 .rightgrid p {
@@ -124,7 +127,7 @@ a:visited {
     letter-spacing: .4px;
     text-align: left;
     text-indent: 5%;
-    color: darkgoldenrod;
+    color: black;
     font-family: "Montserrat",sans-serif;
     display: flex;
     justify-content: center;
@@ -139,7 +142,7 @@ a:visited {
 .skillsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(221,194,159);
+    background-color:  rgb(174, 127, 158);
     justify-items: center;
     align-items: center;
     gap: 50px;
@@ -148,22 +151,33 @@ a:visited {
 .skillColumn{
     height: 400px;
     width: 250px;
-    background-color: rgb(241, 235, 221);
+    background-color: rgb(252, 185, 229);
     color: black;    
 }
 
-.skills h1{
-    font-weight: 300;
+.skillText{
+    color: black;
     font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 23px;    
+    writing-mode: tb-rl;
 }
 
-.skillText{
-    font-weight: 500;
-}
+
+
+
+
+
 
 .skillColumn h1 {
     display: flex;
     justify-content: center;
+    opacity: 0.8;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .skillColumn ul {
@@ -172,33 +186,76 @@ a:visited {
 
 .skillColumn ul li{
     margin-bottom: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .skills{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    background-color: #C19A6B;
+    background-color:  rgb(174, 127, 158);
     height: 90vh;
+    gap: 60px;
+    padding-left: 60px;
+    text-orientation: upright;
 }
 
 /*PROJECTS*/
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 127, 158);
+}
+
+.projects h1{
+    font-weight: 300;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.projectTitle{
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
 .projectsGrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    background-color: #C19A6B;
+    background-color: rgb(252, 185, 229);
 }
 
 .projectsGrid h2 {
     font-size: 20px;
     font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.projectsGrid h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
 .projectsGrid h1 {
     display: flex;
     justify-content: center;
+    background-color: rgb(174, 127, 158);
+    border-width: 10px;
+    border-radius: 30px;
+}
+
+.projectsGrid button{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(174, 127, 158);
+    border-width: 0.2em;
 }
 
 .nutritionDescription a:link{
@@ -245,7 +302,7 @@ a:visited {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    background-color: rgb(241, 235, 221);
+    background-color: rgb(174, 127, 158);
     gap: 30px;
     margin: 30px;
 }
@@ -255,7 +312,7 @@ a:visited {
 }
 
 .contact{
-    background-color: #C19A6B;
+    background-color: rgb(252, 185, 229);
     height: 90vh;
     display: flex;
     flex-direction: column;
